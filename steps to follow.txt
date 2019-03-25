@@ -1,0 +1,28 @@
+- Installation d'Oracle Linux
+- Cloner RAC1
+- Installation de Openfiler
+- Installation RPM _ ASM
+- Installation Grid
+- Installation base de donnés
+
+
+
+
+. grid.env
+export ORACLE_SID=+ASM2
+export ORACLE_SID=prod2
+sqlplus / as sysdba
+
+create table nom(
+id int,
+nomm varchar(20));
+insert into nom values ();
+commit;
+
+select * from nom;
+
+
+
+
+
+
